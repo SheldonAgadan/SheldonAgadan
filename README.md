@@ -3,15 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sheldon Agadan - GitHub Profile</title>
   <link rel="icon" type="image/png" href="https://i.imgur.com/GzD5OIX.png" />
-  <title>Sheldon Agadan - Official Website</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
-  <!-- Your styles here -->
-</head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sheldon Agadan - Official Website</title>
-  <link href="https://imgur.com/GzD5OIX" rel="stylesheet"/>
   <style>
     body {
       margin: 0;
@@ -20,9 +14,7 @@
       color: white;
     }
     header {
-      background-image: url('https://yt3.ggpht.com/DiAao180Hd8pd0WUjsCCGe2eVY83iFaYElVC_wuH6EEE1jSD00U6WrHmEm7hqEj_rKtRE7HH9gY=s600-c-k-c0x00ffffff-no-rj-rp-mo');
-      background-size: cover;
-      background-position: center;
+      background-color: #24292e;
       padding: 80px 20px;
       text-align: center;
     }
@@ -37,6 +29,7 @@
     }
     header p {
       font-size: 1.2em;
+      margin-bottom: 15px;
     }
     .socials i {
       margin: 10px;
@@ -45,7 +38,7 @@
       transition: 0.3s;
     }
     .socials i:hover {
-      color: red;
+      color: #58a6ff;
     }
     .section {
       padding: 40px 20px;
@@ -54,19 +47,17 @@
     .section h2 {
       font-size: 2em;
       margin-bottom: 20px;
-      color: #ff0000;
+      color: #58a6ff;
     }
-    .video-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-      padding: 0 20px;
-    }
-    .video-grid iframe {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      border-radius: 10px;
+    .github-btn {
+      background-color: #58a6ff;
+      color: white;
+      padding: 10px 25px;
       border: none;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
     }
     footer {
       background-color: #111;
@@ -75,49 +66,29 @@
       font-size: 0.9em;
       color: gray;
     }
-    .subscribe-btn {
-      background-color: #ff0000;
-      color: white;
-      padding: 10px 25px;
-      border: none;
-      font-size: 1em;
-      border-radius: 5px;
-      margin-top: 10px;
-      cursor: pointer;
-    }
   </style>
 </head>
 <body>
 
 <header>
-  <img src="https://yt3.ggpht.com/DiAao180Hd8pd0WUjsCCGe2eVY83iFaYElVC_wuH6EEE1jSD00U6WrHmEm7hqEj_rKtRE7HH9gY=s600-c-k-c0x00ffffff-no-rj-rp-mo" alt="Sheldon Agadan" />
+  <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Sheldon Agadan GitHub Avatar" />
   <h1>Sheldon Agadan</h1>
-  <p>Official Website</p>
-  <button class="subscribe-btn" onclick="window.open('https://www.youtube.com/@SHEL_2007', '_blank')">Subscribe on YouTube</button>
+  <p>GitHub Profile</p>
+  <button class="github-btn" onclick="window.open('https://github.com/YOUR_USERNAME', '_blank')">Visit My GitHub</button>
   <div class="socials">
-    <a href="https://youtube.com/@SHEL_2007" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-    <a href="https://discord.gg/eTncvHaAGA" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
-    <a href="https://www.facebook.com/sheldon.agadan" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://github.com/YOUR_USERNAME" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="mailto:ercyear2013@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
   </div>
 </header>
 
 <div class="section" id="about">
   <h2>About Me</h2>
-  <p>Hey! I'm Sheldon Agadan. I create music videos, gaming content, and real-life vlogs. Join my channel to experience creativity, fun, and epic moments every week!</p>
-</div>
-
-<div class="section" id="videos">
-  <h2>Latest Videos</h2>
-  <div class="video-grid">
-    <iframe src="https://www.youtube.com/embed/_7PkvC9raLQ" allowfullscreen title="YouTube Video 2"></iframe>
-    <iframe src="https://www.youtube.com/embed/2cswEqxlDwg" allowfullscreen title="YouTube Video 3"></iframe>
-    <iframe src="https://www.youtube.com/embed/sN6FFefTxrA" allowfullscreen title="YouTube Video 1"></iframe>
-      </div>
+  <p>Hi! I'm Sheldon Agadan. I enjoy contributing to open source and building projects on GitHub. Check out my repositories to see what I'm working on.</p>
 </div>
 
 <div class="section" id="contact">
   <h2>Contact</h2>
-  <p>For business inquiries, collaborations, or questions, please contact:</p>
+  <p>For questions, collaborations, or business inquiries, please email me at:</p>
   <p><strong>Email:</strong> ercyear2013@gmail.com</p>
 </div>
 
